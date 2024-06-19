@@ -33,4 +33,7 @@ The following NuGet packages have been added to the project:
 - Provides full integration with the Visual Studio testing experience.
 - Enables debugging Xunit tests and viewing code coverage.
 
+**[6. Microsoft.NET.Test.Sdk](https://www.nuget.org/packages/Microsoft.NET.Test.Sdk/17.10.0)**
+- A dependency to work with XUnit library.
+
 **Note:** The documentation for all mentioned NuGet packages is available on the provided webpages.
