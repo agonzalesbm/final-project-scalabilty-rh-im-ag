@@ -8,7 +8,7 @@ namespace backend_service.src.models
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string? Id { get; set; }  // Asegúrate de que 'id_recipe' es de tipo entero en la base de datos.
+        public string? Id { get; set; }
         [BsonElement("name")]
         public string Name { get; set; }
         [BsonElement("preparationTime")]
