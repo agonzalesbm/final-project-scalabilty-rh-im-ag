@@ -1,5 +1,4 @@
 ﻿using backend_service.src.services;
-using Microsoft.EntityFrameworkCore;
 using backend_service.src.models;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
@@ -20,13 +19,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
